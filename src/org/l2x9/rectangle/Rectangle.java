@@ -23,10 +23,18 @@ public class Rectangle {
 	public double getPerimeter() {
 		return length * 2 + width * 2;
 	}
+	public double getLength() {
+		return length;
+	}
+
+	public double getWidth() {
+		return width;
+	}
 
 	public void displayAreaFormula() {
-		System.out.println("length * width");
+		System.out.println("The formula for the area of a rectangle is a=l*w");
 	}
+
 	@Override
 	public String toString() {
 		return "Area and Perimeter: " + getArea() + " " + getPerimeter();
