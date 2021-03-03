@@ -2,6 +2,8 @@ package org.l2x9.rectangle;
 
 import java.util.HashMap;
 
+//This class can be used to represent a rectangle
+
 public class Rectangle {
 	private final double length;
 	private final double width;
